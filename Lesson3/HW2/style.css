@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    overflow: hidden;
+}
+p{
+    font-size: 60px;
+}
+#page1{
+    height: 100vh;
+    background-color: steelblue;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#page2{
+    height: 100vh;
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+#page3{
+    height: 100vh;
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}

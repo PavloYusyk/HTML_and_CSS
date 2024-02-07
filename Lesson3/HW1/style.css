@@ -1,0 +1,145 @@
+/*----------page 1----------*/
+body{
+    margin: 0;
+}
+
+.header1{
+    height: 20vh;
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main1{
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+}
+.footer1{
+    height: 20vh;
+    background-color: #BDBDBD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1_1{
+    width: 20vw;
+    background-color: #817C7C;
+}
+.box1_2{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+}
+.box1_3{
+    width: 20vw;
+    background-color: #B7AEAE;
+}
+.content1_1{
+    height: 30vh;
+    background-color: #ABA8A8;
+}
+.content1_2{
+    height: 30vh;
+    background-color: #878484;
+}
+/*----------page 2----------*/
+.header2{
+    height: 20vh;
+    background-color: #8D8484;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main2{
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+}
+.footer2{
+    height: 20vh;
+    background-color: #BDBDBD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2_1{
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+}
+.box2_2{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+}
+.content2_1{
+    height: 20vh;
+    background-color: #776969;
+}
+.content2_2{
+    height: 20vh;
+    background-color: #643030;
+}
+.content2_3{
+    height: 20vh;
+    background-color: #441818;
+}
+.content3_1{
+    height: 30vh;
+    background-color: #937575;
+}
+.content3_2{
+    height: 30vh;
+    background-color: #644C4C;
+}
+/*----------page 3----------*/
+.header3{
+    height: 20vh;
+    background-color: #9B6F6F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main3{
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+}
+.footer3{
+    height: 20vh;
+    background-color: #524B4B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3_1{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+}
+.box3_2{
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+}
+.content4_1{
+    height: 20vh;
+    background-color: #D9D9D9;
+}
+.content4_2{
+    height: 20vh;
+    background-color: #AA9898;
+}
+.content4_3{
+    height: 20vh;
+    background-color: #C5BBBB;
+}
+.content5_1{
+    width: 30vw;
+    background-color: #8A8484;
+}
+.content5_2{
+    width: 30vw;
+    background-color: #C0B3B3;
+}
