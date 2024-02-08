@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+.content{
+    background: white;
+    height: 100vh;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*----------up----------*/
+.up{
+    width: 32vw;
+    height: 78vh;
+    border: 1px solid grey;
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    width: 18vw;
+    height: 12vh;
+    background-image: url("img/inst.png");
+    background-size: cover;
+    background-position: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+label{
+    display: block;
+    margin: 1vh;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    width: 25vw;
+    height: 5vh;
+    border: 1px solid gray;
+    border-radius: 1vh;
+    padding-left: 1vh;
+}
+button{
+    margin-top: 2vh;
+    margin-bottom: -1vh;
+    width: 26vw;
+    height: 5vh;
+    border-radius: 1vh;
+    background-color: lightskyblue;
+    border: none;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+button:hover{
+    background-color: deepskyblue;
+}
+input[type="text"]{
+    text-overflow: ellipsis;
+}
+h2{
+    margin-top: 3vh;
+    color: grey;
+    font-size: 24px;
+}
+.facebook{
+    display: flex;
+    align-items: center;
+    margin-top: -2vh;
+}
+a{
+    text-decoration: none;
+    color: deepskyblue;
+}
+.icon{
+    background-image: url("img/face.png");
+    background-size: cover;
+    background-position: center;
+    width: 3vh;
+    height: 3vh;
+    margin-right: 1vh   ;
+}
+.sing_in_face{
+    font-size: 24px;
+    font-weight: bold;
+    color: #204b81;
+}
+.reset_pass{
+    font-size: 24px;
+    color: #204b81;
+    margin-top: 0;
+}
+
+/*----------down----------*/
+.down{
+    width: 32vw;
+    height: 12vh;
+    border: 1px solid grey;
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reg{
+    font-size: 30px;
+}
