@@ -28,7 +28,7 @@ p{
     border-radius: 50%;
     background: grey;
     position: relative;
-    top: -22vh;
+    top: -28vh;
 }
 #img1{
     background-image: url("img/img1.png");
@@ -44,4 +44,7 @@ p{
     background-image: url("img/img3.png");
     background-size: 9vh;
     background-position: center;
+}
+h2{
+    margin-top: -10vh;
 }
