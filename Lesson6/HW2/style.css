@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+}
+header{
+    grid-area: header;
+    background: olive;
+}
+main{
+    grid-area: main;
+    background: lightpink;
+}
+aside{
+    grid-area: aside;
+    background: lightblue;
+}
+.sec1{
+    grid-area: sec1;
+    background: lightsalmon;
+}
+.sec2{
+    grid-area: sec2;
+    background: lightgreen;
+}
+.sec3{
+    grid-area: sec3;
+    background: lightgoldenrodyellow;
+}
+.grid{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-areas:
+    "header header header header"
+    "main main main aside"
+    "sec1 sec2 sec3 aside"
+    ;
+    grid-template-rows: 34vh 33vh 33vh;
+}
+
+@media screen and (max-width: 600px){
+    .grid{
+        grid-template-areas:
+    "header header header"
+    "main main main"
+    "sec1 sec2 sec3"
+    "aside aside aside";
+    grid-template-rows: 20vh 40vh 20vh 20vh;
+    }
+
+}
